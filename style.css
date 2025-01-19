@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
-
+/* body  */
 body{
     width: 100%;
     height: 100vh;
@@ -14,7 +14,9 @@ body{
     background-color: #081f36;
 }
 
+/* toast  */
 .toast{
+    visibility: hidden;
     min-width: 250px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -43,6 +45,8 @@ body{
     animation: fadein .5s, fadeOut .5s 2.5s;
 }
 
+/* animations */
+
 
 footer{
     padding: 1rem;
@@ -50,3 +54,4 @@ footer{
 footer p{
     font-size: 14px;
 }
+
