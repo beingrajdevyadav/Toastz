@@ -48,6 +48,9 @@ body {
     animation: fadeIn .5s, fadeOut .5s 2.5s;
 }
 
+/* button style */
+
+
 /* animation to show */
 @keyframes fadeIn {
     from {
@@ -63,15 +66,17 @@ body {
 
 /* animation to hide */
 @keyframes fadeOut {
-    from{
+    from {
         right: 30px;
         opacity: 1;
     }
-    to{
+
+    to {
         right: 0;
         opacity: 0;
     }
 }
+
 footer {
     padding: 1rem;
 }
