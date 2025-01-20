@@ -49,8 +49,42 @@ body {
 }
 
 /* button style */
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
 
+.img-section{
+    width: 25%;
+}
+.img-section img{
+    width: 100%;
+}
 
+.todo-apps-functionality{
+    padding: 1rem;
+}
+.todo-apps-functionality ul{
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.todo-apps-functionality li{
+    border: 1px solid #ddd;
+    margin: .5rem auto;
+    padding: .5rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.todo-apps-functionality li:hover{
+    background-color: #10375e;
+}
 /* animation to show */
 @keyframes fadeIn {
     from {
